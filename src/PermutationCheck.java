@@ -9,10 +9,10 @@ public class PermutationCheck {
 
 	public static void main(String[] args){
 		int[] A = {8,6,4};
-		//solution(A);
+		System.out.println(Arrays.asList(solution(A)));
 	}
 	
-	public int solution(int[] A){
+	public static int solution(int[] A){
 		
 		List<Integer> list = Conversions.fromArrayToList(A);
 		Collections.sort(list);
