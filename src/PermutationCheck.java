@@ -9,7 +9,7 @@ public class PermutationCheck {
 
 	public static void main(String[] args){
 		int[] A = {8,6,4};
-		System.out.println(Arrays.asList(solution(A)));
+		System.out.println(solution(A));
 	}
 	
 	public static int solution(int[] A){
